@@ -22,13 +22,13 @@ android:
   tablet-600:
     layers:
       default: |
-        á š e r t y u i o p ŋ
-        a s d f g h j k l đ ŧ
-        \s{shift} ž z č c v b n m \s{backspace}
+        q w e ẽ r t y ỹ u i o p
+        a ã s d f g h j ũ ĩ k l
+        \s{shift} z x c v b n m õ ʼ \s{backspace}
       shift: |
-        Á Š E R T Y U I O P Ŋ
-        A S D F G H J K L Đ Ŧ
-        \s{shift} Ž Z Č C V B N M \s{backspace}
+        Q W E Ẽ R T Y Ỹ U I O P
+        A Ã S D F G H J Ũ Ĩ K L
+        \s{shift} Z X C V B N M Õ ʼ \s{backspace}
 
 iOS:
   config:
@@ -37,29 +37,30 @@ iOS:
   primary:
     layers:
       default: |
-        á š e r t y u i o p ŋ
-        a s d f g h j k l đ ŧ
-        \s{shift:1.25} \s{spacer:0.25} ž z č c v b n m \s{spacer:0.25} \s{backspace:1.25}
+        q w e r t y u i o p
+        a s d f g h j k l ʼ
+        \s{shift:1.25} \s{spacer:0.25} z x c v b n ñ m ʉ ɨ \s{spacer:0.25}         \s{backspace:1.25}
       shift: |
-        Á Š E R T Y U I O P Ŋ
-        A S D F G H J K L Đ Ŧ
-        \s{shift:1.25} \s{spacer:0.25} Ž Z Č C V B N M \s{spacer:0.25} \s{backspace:1.25}
+        Q W E R T Y U I O P
+        A S D F G H J K L '
+        \s{shift:1.25} \s{spacer:0.25} Z X C V B N Ñ M Ʉ Ɨ \s{spacer:0.25} \s{backspace:1.25}
       symbols-1: |
         1 2 3 4 5 6 7 8 9 0
-        - / : ; ( ) kr & @ "
+        - / : ; ( ) R$ & @ "
         \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
       symbols-2: |
         [ ] { } # % ^ * + =
         _ \ | ~ < > € $ £ •
         \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
+
   iPad-9in:
     layers:
       default: |
-        \s{"`":0.75}  á š e r t y u i o p ŋ \s{backspace:1.25}
+        \s{"`":0.75}  q w e r t y u i o p ŋ \s{backspace:1.25}
         \s{shift}     a s d f g h j k l đ ŧ \s{shift}
         \s{spacer:0.5}  ž z č c v b n m , . \s{spacer:0.5} \s{return:2}
       shift: |
-        \s{"@":0.75}  Á Š E R T Y U I O P Ŋ \s{backspace:1.25}
+        \s{"@":0.75}  Q W E R T Y U I O P Ŋ \s{backspace:1.25}
         \s{shift}     A S D F G H J K L Đ Ŧ \s{shift}
         \s{spacer:0.5}  Ž Z Č C V B N M ! ? \s{spacer:0.5} \s{return:2}
       alt: |
@@ -78,6 +79,7 @@ iOS:
         \s{spacer:0.75}  1 2 3 4 5 6 7 8 9 0 ´ \s{backspace:1.25}
         \s{shiftSymbols} € $ £ ^ [ ] { } — ° … \s{shiftSymbols}
         \s{spacer:1.5}    § | ~ ≠ \ < > ! ?    \s{spacer:0.5} \s{return:2}
+
   iPad-12in:
     layers:
       default: |
@@ -154,16 +156,6 @@ macOS:
           Q W E R T Y U I O P Å ^
           A S D F G H J K L Ø Æ *
         > Z X C V B N M ; : _
-      cmd+alt: |
-        € © ™ £ € ∞ § | [ ] ≈ ± `
-          • Ω é \u{0} † µ ü ı œ π ˙ ~
-           ß ∂ ƒ ¸ ˛ √ ª ﬁ ö ä '
-        ≤ ÷ ≈ ç ‹ › ‘ ’ ‚ … –
-      cmd+alt+shift: |
-        Ÿ ¡ ®     ¥ ¢     ‰ ¶ \ { } ≠ ¿ \u{0}
-          ° ˝     É \u{0} ‡ ˜ Ü ˆ Œ ∏ ˚ ^
-          ◊ ∑     ∆ ∫     ¯ ˘ ¬ º ﬂ Ö Ä \u{0}
-        ≥ ⁄ \u{0} Ç «     » “ ” „ · —
   space:
     alt: \u{A0}
     alt+shift: \u{A0}
@@ -175,13 +167,11 @@ macOS:
     shift: ['`', '¨', '"', '^']
     caps: ["'", '`', '´', '~']
     alt: ['`', '~', '´', '¨', '^']
-    alt+shift: ['ʔ', '№']
-    cmd+alt: ['¸', 'ƒ', '˙']
-    alt+caps: ['-', '¸', 'ƒ', 'ˀ', 'ˆ', 'ˇ', '˘', '˙', '˚', '˝']
 
 windows:
   config:
-    locale: skf-Latn-US
+    locale: skf-Latn-BR
+    languageName: Sakurabiat
   primary:
     layers:
       default: |
@@ -233,20 +223,20 @@ chromeOS:
   primary:
     layers:
       default: |
-        | 1 2 3 4 5 6 7 8 9 0 + \
-        á š e r t y u i o p å ŋ
-        a s d f g h j k l ø æ đ
-        ž z č c v b n m , . -
+        | 1 2 3 4 5 6 7 8 9 0 - =
+        q w e r t y u i o p ´ [
+        a s d f g h j k l ç ~ ]
+        ~ z x c v b n m , . -
       shift: |
         § ! " # ¤ % & / ( ) = ? `
-        Á Š E R T Y U I O P Å Ŋ
-        A S D F G H J K L Ø Æ Đ
-        Ž Z Č C V B N M ; : _
+        Q W E R T Y U I O P ` {
+        A S D F G H J K L Ç ^ }
+        ' Z X C V B N M ; : _
       caps: |
         | 1 2 3 4 5 6 7 8 9 0 + \
-        Á Š E R T Y U I O P Å Ŋ
-        A S D F G H J K L Ø Æ Đ
-        Ž Z Č C V B N M , . -
+        Q W E R T Y U I O P ` {
+        A S D F G H J K L Ç ^ }
+        Ž Z X C V B N M , . -
       caps+shift: |
         § ! " # ¤ % & / ( ) = ? `
         á š e r t y u i o p å ŋ
@@ -730,6 +720,10 @@ transforms:
     ' ': '~'
     a: ã
     A: Ã
+    'e': 'ẽ'
+    'E': 'Ẽ'
+    g: g\u{303}
+    G: G\u{303}
     i: ĩ
     I: Ĩ
     'n': ñ
@@ -738,6 +732,8 @@ transforms:
     O: Õ
     u: ũ
     U: Ũ
+    'y': 'ỹ'
+    'Y': 'Ỹ'
 
 keyNames:
   space: gaska
